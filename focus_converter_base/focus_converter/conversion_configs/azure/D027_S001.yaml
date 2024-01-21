@@ -32,6 +32,6 @@ conversion_args:
       value: 50K Units
     - key: Unassigned
       value: Unassigned
-  default_value: "'Units'"
+  default_value: Units
 column: UnitOfMeasure
 focus_column: PricingUnit
