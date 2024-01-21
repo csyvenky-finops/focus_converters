@@ -1,0 +1,37 @@
+plan_name: convert UnitOfMeasure to PricingUnit
+conversion_type: map_values
+conversion_args:
+  value_list:
+    - key: 1 Hour
+      value: Hours
+    - key: 1 GB
+      value: GB
+    - key: 1 GB Hour
+      value: GB/Hour
+    - key: 1 GB/Month
+      value: GB/Month
+    - key: 1 GiB Hour
+      value: GB/Hour
+    - key: 1 Second
+      value: Second
+    - key: 1/Day
+      value: Day
+    - key: 1/Hour
+      value: Hours
+    - key: 1/Month
+      value: Month
+    - key: 100K
+      value: 100K Units
+    - key: 10K
+      value: 10K Units
+    - key: 1K
+      value: 1K Units
+    - key: 1M
+      value: 1M Units
+    - key: 50K
+      value: 50K Units
+    - key: Unassigned
+      value: Unassigned
+  default_value: "'Units'"
+column: UnitOfMeasure
+focus_column: PricingUnit
